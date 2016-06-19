@@ -1,0 +1,24 @@
+{
+    "name" : "InnoBrig/flex-input",
+    "version":"1.0.0",
+    "description": "Flexible input handler for request inputs (POST, GET, PUT, DELETE, REQUEST, FILES, COOKIE) using filter_var()",
+    "keywords": ["input","filter","get","post","request","put","delete","files","cookie"],
+    "authors": [
+       {
+            "name": "Innovation Brigade",
+            "email": "contact@innovation-brigade.com"
+        }
+    ],
+    "license":"MIT",
+    "autoload": {
+       "psr-0": {
+            "InnoBrig\\FlexInput\\": "src"
+        },
+        "psr-4": {
+            "InnoBrig\\FlexInput\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
