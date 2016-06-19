@@ -3,10 +3,7 @@ Flexible input handler for request inputs (POST, GET, PUT, DELETE, REQUEST, FILE
 
 ##Install
 Via composer
-> { "require": { "innobrig/flex-input": "^1.0.6" } }
-
-For some reasons packagist refuses to pick up the release and thus will clone the git archive. In this case use
-> composer update --prefer-dist
+> { "require": { "innobrig/flex-input": "^1.0" } }
 
 
 ### Example Use
