@@ -1,5 +1,5 @@
 {
-    "name" : "InnoBrig/flex-input",
+    "name" : "innobrig/flex-input",
     "version":"1.0.0",
     "description": "Flexible input handler for request inputs (POST, GET, PUT, DELETE, REQUEST, FILES, COOKIE) using filter_var()",
     "keywords": ["input","filter","get","post","request","put","delete","files","cookie"],
