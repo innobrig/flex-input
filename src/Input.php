@@ -346,8 +346,9 @@ class Input
         foreach ($values as $k=>$v) {
             if (is_array($v)) {
                 $values[$k] = self::filterArray ($v, $filter, $args, $doTrim);
+            } else {
+                $values[$k] = filter_var (self::trim($v, $doTrim), $filter, $args);
             }
-            $values[$k] = filter_var (self::trim($v, $doTrim), $filter, $args);
         }
 
         return $values;
