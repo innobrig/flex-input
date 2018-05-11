@@ -15,7 +15,7 @@ class Input
     //public static $defaultFlags  = FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH;
 
     // Encode HTML special chatrs, newlines, etc.
-    public static $defaultFilter = FILTER_SANITIZE_SPECIAL_CHARS;
+    public static $defaultFilter = FILTER_SANITIZE_STRING;
     public static $defaultFlags  = FILTER_FLAG_ENCODE_LOW | FILTER_FLAG_ENCODE_AMP;
 
 
